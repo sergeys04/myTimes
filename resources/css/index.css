@@ -37,3 +37,32 @@ nav span  {
   display: inline-block;
   padding: 20px 10px;
 }
+
+.content  {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.medium  {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
